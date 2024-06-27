@@ -8,11 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://soot-oss.github.io/SootUp/develop/installation/">
+        <link rel="canonical" href="https://soot-oss.github.io/SootUp/develop/analysisinputlocations/">
       
       
+        <link rel="prev" href="../getting-started/">
       
-        <link rel="next" href="../getting-started/">
+      
+        <link rel="next" href="../examples/">
       
       
       <link rel="icon" href="../img/icon.svg">
@@ -20,7 +22,7 @@
     
     
       
-        <title>Installation - </title>
+        <title>Analysis Input - </title>
       
     
     
@@ -74,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#installation" class="md-skip">
+        <a href="#analysis-input" class="md-skip">
           Skip to content
         </a>
       
@@ -113,7 +115,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Installation
+              Analysis Input
             
           </span>
         </div>
@@ -268,30 +270,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Installation
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -300,53 +282,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#use-the-latest-develop-branch" class="md-nav__link">
-    <span class="md-ellipsis">
-      Use the latest develop branch
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#use-releases-on-maven-central" class="md-nav__link">
-    <span class="md-ellipsis">
-      Use Releases on Maven Central
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#build-from-source" class="md-nav__link">
-    <span class="md-ellipsis">
-      Build from Source
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -377,10 +312,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../analysisinputlocations/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Analysis Input
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -389,6 +344,80 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#java-runtime" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java Runtime
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-bytecode-class-jar-war" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java Bytecode .class, .jar, .war
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-sourcecode-java" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java Sourcecode .java
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jimple-jimple" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jimple .jimple
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-bytecode-dex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Android Bytecode .dex
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-cli-arguments-to-configure-sootup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java cli arguments to configure SootUp
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -952,27 +981,54 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#use-the-latest-develop-branch" class="md-nav__link">
+  <a href="#java-runtime" class="md-nav__link">
     <span class="md-ellipsis">
-      Use the latest develop branch
+      Java Runtime
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#use-releases-on-maven-central" class="md-nav__link">
+  <a href="#java-bytecode-class-jar-war" class="md-nav__link">
     <span class="md-ellipsis">
-      Use Releases on Maven Central
+      Java Bytecode .class, .jar, .war
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#build-from-source" class="md-nav__link">
+  <a href="#java-sourcecode-java" class="md-nav__link">
     <span class="md-ellipsis">
-      Build from Source
+      Java Sourcecode .java
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jimple-jimple" class="md-nav__link">
+    <span class="md-ellipsis">
+      Jimple .jimple
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#android-bytecode-dex" class="md-nav__link">
+    <span class="md-ellipsis">
+      Android Bytecode .dex
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#java-cli-arguments-to-configure-sootup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Java cli arguments to configure SootUp
     </span>
   </a>
   
@@ -996,137 +1052,34 @@
   
 
 
-<h1 id="installation">Installation</h1>
-<h2 id="use-the-latest-develop-branch">Use the latest <a href="https://github.com/soot-oss/SootUp/tree/develop">develop branch</a></h2>
-<p>For configuration options of your build tool please visit <a href="https://jitpack.io/#soot-oss/SootUp/develop-SNAPSHOT">SootUp on Jitpack.io</a></p>
-<h2 id="use-releases-on-maven-central">Use Releases on Maven Central</h2>
-<p>The code below shows you how to import all submodules of the SootUp repository.
-You can import fewer modules if your use case allows it.</p>
-<p>Add the following dependencies to your <code>pom.xml</code> / <code>build.gradle</code>.</p>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Maven</label><label for="__tabbed_1_2">Gradle</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span>
-<span class="normal">14</span>
-<span class="normal">15</span>
-<span class="normal">16</span>
-<span class="normal">17</span>
-<span class="normal">18</span>
-<span class="normal">19</span>
-<span class="normal">20</span>
-<span class="normal">21</span>
-<span class="normal">22</span>
-<span class="normal">23</span>
-<span class="normal">24</span>
-<span class="normal">25</span>
-<span class="normal">26</span>
-<span class="normal">27</span>
-<span class="normal">28</span>
-<span class="normal">29</span>
-<span class="normal">30</span>
-<span class="normal">31</span>
-<span class="normal">32</span>
-<span class="normal">33</span>
-<span class="normal">34</span>
-<span class="normal">35</span>
-<span class="normal">36</span>
-<span class="normal">37</span>
-<span class="normal">38</span>
-<span class="normal">39</span>
-<span class="normal">40</span>
-<span class="normal">41</span>
-<span class="normal">42</span></pre></div></td><td class="code"><div><pre><span></span><code>&lt;dependencies&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.core&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.java.core&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.java.sourcecode&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.java.bytecode&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.jimple.parser&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.callgraph&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.analysis&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-    &lt;dependency&gt;
-        &lt;groupId&gt;org.soot-oss&lt;/groupId&gt;
-        &lt;artifactId&gt;sootup.qilin&lt;/artifactId&gt;
-        &lt;version&gt;1.1.2&lt;/version&gt;
-    &lt;/dependency&gt;
-&lt;/dependencies&gt;
-</code></pre></div></td></tr></table></div>
-</div>
-<div class="tabbed-block">
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
-<span class="normal"> 2</span>
-<span class="normal"> 3</span>
-<span class="normal"> 4</span>
-<span class="normal"> 5</span>
-<span class="normal"> 6</span>
-<span class="normal"> 7</span>
-<span class="normal"> 8</span>
-<span class="normal"> 9</span>
-<span class="normal">10</span>
-<span class="normal">11</span>
-<span class="normal">12</span>
-<span class="normal">13</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="n">repositories</span><span class="w"> </span><span class="o">{</span>
-<span class="w">    </span><span class="n">mavenCentral</span><span class="o">()</span>
-<span class="w">    </span><span class="n">google</span><span class="o">()</span>
-<span class="o">}</span>
-
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.core:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.java.core:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.java.sourcecode:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.java.bytecode:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.jimple.parser:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.callgraph:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.analysis:1.1.2&quot;</span>
-<span class="n">compile</span><span class="w"> </span><span class="s2">&quot;org.soot-oss:sootup.qilin:1.1.2&quot;</span>
-</code></pre></div></td></tr></table></div>
-</div>
-</div>
-</div>
-<h2 id="build-from-source">Build from Source</h2>
-<p>If you'd like to get the most recent changes, you can build SootUp from source yourself and install it into your local maven repository.
-<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal">1</span>
-<span class="normal">2</span></pre></div></td><td class="code"><div><pre><span></span><code>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/secure-software-engineering/SootUp.git
-mvn<span class="w"> </span>install
-</code></pre></div></td></tr></table></div></p>
+<h1 id="analysis-input">Analysis Input</h1>
+<p>i.e. What should be analyzed - an <code>AnalysisInputLocation</code> points to code input SootUp can analyze.
+We ship multiple Subclasses that can handle different code input.</p>
+<h3 id="java-runtime">Java Runtime</h3>
+<ul>
+<li>Java &lt;=8: <code>DefaultRTJaAnalysisInputLocation</code> current rt.jar (or point to any rt.jar as its just a usual .jar file)</li>
+<li>Java &gt;=9: <code>JRTFilesystemAnalysisInputLocation</code></li>
+</ul>
+<p>If you have errors like Java.lang.String, Java.lang.Object, ... you are most likely missing this AnalysisInput.</p>
+<h3 id="java-bytecode-class-jar-war">Java Bytecode .class, .jar, .war</h3>
+<ul>
+<li><code>JavaClassPathAnalysisInputLocation</code> - its the equivalent of the classpath you would pass to the java executable i.e. point to root(s) of package(s).</li>
+</ul>
+<h3 id="java-sourcecode-java">Java Sourcecode .java</h3>
+<ul>
+<li><code>OTFCompileAnalysisInputLocation</code> - you can point directly to .java files or pass a String with Java sourcecode, SootUp delegates to the <code>JavaCompiler</code> and transform the bytecode from the compiler to Jimple</li>
+<li><code>JavaSourcePathInputLocation</code> <span class="tooltip hint--top" aria-label="Has huge problems with exceptional flow!"><strong><em>experimental!</em></strong></span> - points to a directory that is the root source directory (containing the package directory structure).</li>
+</ul>
+<h3 id="jimple-jimple">Jimple .jimple</h3>
+<ul>
+<li><code>JimpleAnalysisInputLocation</code> - needs a Path to a .jimple file or a directory.</li>
+</ul>
+<h3 id="android-bytecode-dex">Android Bytecode .dex</h3>
+<ul>
+<li><code>ApkAnalysisInputLocation</code> - currenlty uses dex2jar internally - A SootUp solution to directly generate Jimple is WIP!</li>
+</ul>
+<h3 id="java-cli-arguments-to-configure-sootup">Java cli arguments to configure SootUp</h3>
+<p>We created a <a href="../tool_setup/">Utility</a> that parses a String of java command line arguments and configures SootUp respectively.</p>
 
 
 
